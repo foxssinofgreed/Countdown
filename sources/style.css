@@ -60,18 +60,26 @@ body {
 @keyframes spongebob-walk {
     0% {
         left: 0;
+        background-image: url('spongebob.png');
     }
     25% {
         left: 30%;
+        background-image: url('spongebob.png');
     }
     50% {
         left: 40%;
+        background-image: url('spongebob.png');
     }
     75% {
         left: 70%;
+        background-image: url('spongebob_1.png');
+    }
+    95% {
+        left: 10%;
+        background-image: url('spongebob_1.png');
     }
     100% {
-        left: 10%;
+        left: 0;
     }
 }
 
@@ -97,32 +105,42 @@ body {
 @keyframes patrick-walk {
     0% {
         left: 95%;
+        background-image: url('patrick_1.png');
     }
     25% {
         left: 30%;
+        background-image: url('patrick.png');
     }
     50% {
         left: 70%;
+        background-image: url('patrick_1.png');
     }
     75% {
         left: 20%;
+        background-image: url('patrick.png');
     }
     90% {
         left: 60%;
+        background-image: url('patrick_1.png');
+    }
+    95% {
+        left: 0;
+        background-image: url('patrick.png');
     }
     100% {
-        left: 0;
+        left: 95%;
+        background-image: url('patrick_1.png');
     }
 }
 
 #patrick-container {
-    width: 19.05px;
+    width: 25.05px;
     height: 35.25px;
     background-image: url('patrick.png');
     background-size: cover;
     background-repeat: no-repeat;
     animation-name: patrick-walk;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-timing-function: ease-in;
     animation-iteration-count: infinite;
 }
