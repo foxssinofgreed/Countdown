@@ -130,6 +130,6 @@ body {
 /* Adjust the position of the SpongeBob container as needed */
 #patrick-container {
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     left: 0;
 }
