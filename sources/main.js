@@ -1,5 +1,5 @@
 // Set the date you want the countdown to end
-const countdownDate = new Date("2023-04-10T21:59:59").getTime();
+const countdownDate = new Date("2023-04-10T21:29:59").getTime();
 
 // Update the countdown every second
 const countdownInterval = setInterval(function() {
