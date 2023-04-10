@@ -1,5 +1,5 @@
 // Set the date you want the countdown to end
-const countdownDate = new Date("2023-04-10T23:59:59").getTime();
+const countdownDate = new Date("2023-04-10T22:59:59").getTime();
 
 // Update the countdown every second
 const countdownInterval = setInterval(function() {
@@ -29,6 +29,6 @@ const countdownInterval = setInterval(function() {
     // If the countdown is finished, clear the interval and display a message
     if (distance < 0) {
         clearInterval(countdownInterval);
-        countdownElement.innerHTML = "EXPIRED";
+        countdownElement.innerHTML = "გახსენი ყუთი";
     }
 }, 1000);
